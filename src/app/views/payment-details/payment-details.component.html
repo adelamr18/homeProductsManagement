@@ -1,0 +1,60 @@
+<div class="payment-details-container">
+  <span id="payment-header">
+    {{ payment }}
+  </span>
+  <div class="payment-form-container">
+    <form [formGroup]="paymentForm">
+      <div class="form-group row">
+        <label class="col-sm-2 col-form-label">{{ cardHolder }}</label>
+        <div class="col-sm-10">
+          <input
+            formControlName="cardHolder"
+            type="text"
+            class="form-control"
+            placeholder="{{ cardHolder }}"
+            [ngClass]="{ 'is-invalid': submitted && f.cardHolder.errors }"
+          />
+          <div *ngIf="f.cardHolder.errors" class="invalid-feedback">
+            <div *ngIf="f.cardHolder.errors.required">
+              {{ cardHolderRequired }}
+            </div>
+          </div>
+          <div *ngIf="f.cardHolder.errors" class="invalid-feedback">
+            <div *ngIf="f.cardHolder.hasError('pattern')">
+              {{ cardHolderLetters }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label class="col-sm-2 col-form-label">{{ iban }}</label>
+        <div class="col-sm-10">
+          <input
+            formControlName="iban"
+            type="text"
+            class="form-control"
+            placeholder="{{ iban }}"
+            name="iban"
+            [ngClass]="{ 'is-invalid': submitted && f.iban.errors }"
+            (change)="onIbanChange($event)"
+          />
+          <div *ngIf="f.iban.errors" class="invalid-feedback">
+            <div *ngIf="f.iban.errors.required">
+              {{ ibanRequired }}
+            </div>
+            <div *ngIf="f.iban.errors.iban">
+              {{ ibanInvalid }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div (click)="onSubmit()" class="submit-container">
+        <navigate-button
+          [enableFullWidth]="enableBtnFullWidth"
+          (onRouteChange)="onRouteChange($event)"
+          [buttonText]="navigateButtonText"
+        ></navigate-button>
+      </div>
+    </form>
+  </div>
+</div>

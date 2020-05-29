@@ -1,0 +1,36 @@
+.payment-details-container {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#payment-header {
+  color: rgb(53, 53, 53);
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 700;
+}
+.submit-container {
+  margin-top: 3rem;
+  margin-left: 7.0625rem;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+label {
+  color: rgb(53, 53, 53);
+  font-weight: 600;
+}
+.payment-form-container {
+  width: 37.5rem;
+  margin-top: 4rem;
+}
+@media (max-width: 35.625rem) {
+  .submit-container {
+    margin-left: 0rem;
+  }
+  .payment-form-container {
+    padding: 4.0625rem;
+  }
+}
