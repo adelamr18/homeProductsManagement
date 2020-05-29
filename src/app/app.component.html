@@ -1,0 +1,27 @@
+<header>
+  <div class="header">
+    <app-header (onProductAddition)="onProductAddition($event)"></app-header>
+  </div>
+</header>
+<div
+  *ngIf="
+    !navigationService.stepThreeActive && !navigationService.stepFourActive
+  "
+  class="shopping-cart-container"
+>
+  <shopping-modal [addedProducts]="addedProducts"></shopping-modal>
+</div>
+<div class="progress-bar-container">
+  <app-progress-bar
+    (onStepTwoClick)="onStepTwoClick()"
+    (onStepOneClick)="onStepOneClick()"
+    (onStepThreeClick)="onStepThreeClick()"
+    (onStepFourClick)="onStepFourClick()"
+    (onStepFiveClick)="onStepFiveClick()"
+  ></app-progress-bar>
+</div>
+<body>
+  <div class="main-content">
+    <router-outlet></router-outlet>
+  </div>
+</body>
