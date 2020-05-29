@@ -1,0 +1,1812 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>manage-user-products documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">manage-user-products documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>CheckoutOverviewComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/views/checkout-overview/checkout-overview.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-checkout-overview</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./checkout-overview.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./checkout-overview.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#addedProducts">addedProducts</a>
+                            </li>
+                            <li>
+                                <a href="#address">address</a>
+                            </li>
+                            <li>
+                                <a href="#areProductsEdited">areProductsEdited</a>
+                            </li>
+                            <li>
+                                <a href="#calculatePriceOnChange">calculatePriceOnChange</a>
+                            </li>
+                            <li>
+                                <a href="#calculateProductPrice">calculateProductPrice</a>
+                            </li>
+                            <li>
+                                <a href="#calulateTotalPrice">calulateTotalPrice</a>
+                            </li>
+                            <li>
+                                <a href="#cardHolder">cardHolder</a>
+                            </li>
+                            <li>
+                                <a href="#configureButton">configureButton</a>
+                            </li>
+                            <li>
+                                <a href="#configureOverview">configureOverview</a>
+                            </li>
+                            <li>
+                                <a href="#deleteProduct">deleteProduct</a>
+                            </li>
+                            <li>
+                                <a href="#editedProduct">editedProduct</a>
+                            </li>
+                            <li>
+                                <a href="#enableBtnFullWidth">enableBtnFullWidth</a>
+                            </li>
+                            <li>
+                                <a href="#firstName">firstName</a>
+                            </li>
+                            <li>
+                                <a href="#getPaymentDetails">getPaymentDetails</a>
+                            </li>
+                            <li>
+                                <a href="#getProductsInformation">getProductsInformation</a>
+                            </li>
+                            <li>
+                                <a href="#getShipmentDetails">getShipmentDetails</a>
+                            </li>
+                            <li>
+                                <a href="#iban">iban</a>
+                            </li>
+                            <li>
+                                <a href="#lastName">lastName</a>
+                            </li>
+                            <li>
+                                <a href="#mobile">mobile</a>
+                            </li>
+                            <li>
+                                <a href="#navigateButtonText">navigateButtonText</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#navigationService">navigationService</a>
+                            </li>
+                            <li>
+                                <a href="#onRouteChange">onRouteChange</a>
+                            </li>
+                            <li>
+                                <a href="#originalProducts">originalProducts</a>
+                            </li>
+                            <li>
+                                <a href="#overview">overview</a>
+                            </li>
+                            <li>
+                                <a href="#payment">payment</a>
+                            </li>
+                            <li>
+                                <a href="#paymentDetails">paymentDetails</a>
+                            </li>
+                            <li>
+                                <a href="#previouslyAddedProducts">previouslyAddedProducts</a>
+                            </li>
+                            <li>
+                                <a href="#products">products</a>
+                            </li>
+                            <li>
+                                <a href="#products$">products$</a>
+                            </li>
+                            <li>
+                                <a href="#shipmentDetails">shipmentDetails</a>
+                            </li>
+                            <li>
+                                <a href="#shipping">shipping</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#store">store</a>
+                            </li>
+                            <li>
+                                <a href="#total">total</a>
+                            </li>
+                            <li>
+                                <a href="#totalPrice">totalPrice</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(navigationService: <a href="../injectables/NavigationService.html">NavigationService</a>, store: Store<ProductsState>, router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, productsService: <a href="../injectables/ProductsService.html">ProductsService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="44" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:44</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>navigationService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/NavigationService.html" target="_self" >NavigationService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>store</td>
+                                                  
+                                                        <td>
+                                                                    <code>Store&lt;ProductsState&gt;</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>productsService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/ProductsService.html" target="_self" >ProductsService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="53"
+                            class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:53</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="addedProducts"></a>
+                        <span class="name">
+                            <b>
+                            addedProducts</b>
+                            <a href="#addedProducts"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/Product.html" target="_self" >Array&lt;Product&gt;</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:26</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="address"></a>
+                        <span class="name">
+                            <b>
+                            address</b>
+                            <a href="#address"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="37" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:37</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="areProductsEdited"></a>
+                        <span class="name">
+                            <b>
+                            areProductsEdited</b>
+                            <a href="#areProductsEdited"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:32</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="calculatePriceOnChange"></a>
+                        <span class="name">
+                            <b>
+                            calculatePriceOnChange</b>
+                            <a href="#calculatePriceOnChange"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="94" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:94</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="calculateProductPrice"></a>
+                        <span class="name">
+                            <b>
+                            calculateProductPrice</b>
+                            <a href="#calculateProductPrice"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="148" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:148</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="calulateTotalPrice"></a>
+                        <span class="name">
+                            <b>
+                            calulateTotalPrice</b>
+                            <a href="#calulateTotalPrice"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="113" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:113</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="cardHolder"></a>
+                        <span class="name">
+                            <b>
+                            cardHolder</b>
+                            <a href="#cardHolder"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="40" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:40</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="configureButton"></a>
+                        <span class="name">
+                            <b>
+                            configureButton</b>
+                            <a href="#configureButton"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="134" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:134</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="configureOverview"></a>
+                        <span class="name">
+                            <b>
+                            configureOverview</b>
+                            <a href="#configureOverview"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="62" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:62</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="deleteProduct"></a>
+                        <span class="name">
+                            <b>
+                            deleteProduct</b>
+                            <a href="#deleteProduct"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="139" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:139</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="editedProduct"></a>
+                        <span class="name">
+                            <b>
+                            editedProduct</b>
+                            <a href="#editedProduct"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/Product.html" target="_self" >Product</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:30</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="enableBtnFullWidth"></a>
+                        <span class="name">
+                            <b>
+                            enableBtnFullWidth</b>
+                            <a href="#enableBtnFullWidth"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="29" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:29</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="firstName"></a>
+                        <span class="name">
+                            <b>
+                            firstName</b>
+                            <a href="#firstName"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="35" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:35</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getPaymentDetails"></a>
+                        <span class="name">
+                            <b>
+                            getPaymentDetails</b>
+                            <a href="#getPaymentDetails"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="80" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:80</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getProductsInformation"></a>
+                        <span class="name">
+                            <b>
+                            getProductsInformation</b>
+                            <a href="#getProductsInformation"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="84" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:84</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getShipmentDetails"></a>
+                        <span class="name">
+                            <b>
+                            getShipmentDetails</b>
+                            <a href="#getShipmentDetails"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="76" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:76</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="iban"></a>
+                        <span class="name">
+                            <b>
+                            iban</b>
+                            <a href="#iban"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="41" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:41</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="lastName"></a>
+                        <span class="name">
+                            <b>
+                            lastName</b>
+                            <a href="#lastName"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="36" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:36</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="mobile"></a>
+                        <span class="name">
+                            <b>
+                            mobile</b>
+                            <a href="#mobile"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="38" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:38</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="navigateButtonText"></a>
+                        <span class="name">
+                            <b>
+                            navigateButtonText</b>
+                            <a href="#navigateButtonText"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:28</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="navigationService"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            navigationService</b>
+                            <a href="#navigationService"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../injectables/NavigationService.html" target="_self" >NavigationService</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="47" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:47</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="onRouteChange"></a>
+                        <span class="name">
+                            <b>
+                            onRouteChange</b>
+                            <a href="#onRouteChange"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="121" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:121</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="originalProducts"></a>
+                        <span class="name">
+                            <b>
+                            originalProducts</b>
+                            <a href="#originalProducts"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/Product.html" target="_self" >Array&lt;Product&gt;</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:31</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="overview"></a>
+                        <span class="name">
+                            <b>
+                            overview</b>
+                            <a href="#overview"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="42" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:42</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="payment"></a>
+                        <span class="name">
+                            <b>
+                            payment</b>
+                            <a href="#payment"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="39" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:39</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="paymentDetails"></a>
+                        <span class="name">
+                            <b>
+                            paymentDetails</b>
+                            <a href="#paymentDetails"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/PaymentDetails.html" target="_self" >PaymentDetails</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:24</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="previouslyAddedProducts"></a>
+                        <span class="name">
+                            <b>
+                            previouslyAddedProducts</b>
+                            <a href="#previouslyAddedProducts"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/Product.html" target="_self" >Array&lt;Product&gt;</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="33" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:33</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="products"></a>
+                        <span class="name">
+                            <b>
+                            products</b>
+                            <a href="#products"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="43" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:43</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="products$"></a>
+                        <span class="name">
+                            <b>
+                            products$</b>
+                            <a href="#products$"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/Product.html" target="_self" >Observable&lt;Array&lt;Product&gt;&gt;</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:25</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="shipmentDetails"></a>
+                        <span class="name">
+                            <b>
+                            shipmentDetails</b>
+                            <a href="#shipmentDetails"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../classes/ShipmentInfo.html" target="_self" >ShipmentInfo</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:23</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="shipping"></a>
+                        <span class="name">
+                            <b>
+                            shipping</b>
+                            <a href="#shipping"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:34</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="store"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            store</b>
+                            <a href="#store"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>Store&lt;ProductsState&gt;</code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="48" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:48</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="total"></a>
+                        <span class="name">
+                            <b>
+                            total</b>
+                            <a href="#total"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="44" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:44</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="totalPrice"></a>
+                        <span class="name">
+                            <b>
+                            totalPrice</b>
+                            <a href="#totalPrice"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>0</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/views/checkout-overview/checkout-overview.component.ts:27</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &quot;@angular/core&quot;;
+import { NavigationService } from &quot;src/app/shared/services/navigation/navigation.service&quot;;
+import { ShipmentInfo } from &quot;src/app/shared/models/shippment-info&quot;;
+import { PaymentDetails } from &quot;src/app/shared/models/payment-details&quot;;
+import { Observable } from &quot;rxjs&quot;;
+import { Product } from &quot;src/app/shared/models/product&quot;;
+import { Store } from &quot;@ngrx/store&quot;;
+import { ProductsState } from &quot;src/app/shared/models/app-state&quot;;
+import { Router } from &quot;@angular/router&quot;;
+import {
+  DeleteProductAction,
+  UpdateAddedProducts
+} from &quot;../products-dashboard/actions&quot;;
+import { ProductsService } from &quot;src/app/shared/services/products/products.service&quot;;
+import { formsInfo, titles, routes } from &quot;../../shared/constants/defines&quot;;
+
+@Component({
+  selector: &quot;app-checkout-overview&quot;,
+  templateUrl: &quot;./checkout-overview.component.html&quot;,
+  styleUrls: [&quot;./checkout-overview.component.css&quot;]
+})
+export class CheckoutOverviewComponent implements OnInit {
+  shipmentDetails: ShipmentInfo;
+  paymentDetails: PaymentDetails;
+  products$: Observable&lt;Array&lt;Product&gt;&gt;;
+  addedProducts: Array&lt;Product&gt;;
+  totalPrice: number &#x3D; 0;
+  navigateButtonText: string &#x3D; &quot;&quot;;
+  enableBtnFullWidth: boolean &#x3D; false;
+  editedProduct: Product;
+  originalProducts: Array&lt;Product&gt;;
+  areProductsEdited: boolean &#x3D; false;
+  previouslyAddedProducts: Array&lt;Product&gt;;
+  shipping: string &#x3D; &quot;&quot;;
+  firstName: string &#x3D; &quot;&quot;;
+  lastName: string &#x3D; &quot;&quot;;
+  address: string &#x3D; &quot;&quot;;
+  mobile: string &#x3D; &quot;&quot;;
+  payment: string &#x3D; &quot;&quot;;
+  cardHolder: string &#x3D; &quot;&quot;;
+  iban: string &#x3D; &quot;&quot;;
+  overview: string &#x3D; &quot;&quot;;
+  products: string &#x3D; &quot;&quot;;
+  total: string &#x3D; &quot;&quot;;
+
+  constructor(
+    public navigationService: NavigationService,
+    public store: Store&lt;ProductsState&gt;,
+    private router: Router,
+    private productsService: ProductsService
+  ) {}
+
+  ngOnInit(): void {
+    this.configureOverview();
+    this.getShipmentDetails();
+    this.getPaymentDetails();
+    this.getProductsInformation();
+    this.configureButton();
+    this.calculateProductPrice();
+  }
+
+  configureOverview &#x3D; (): void &#x3D;&gt; {
+    this.overview &#x3D; formsInfo.overview;
+    this.shipping &#x3D; titles.shipping;
+    this.firstName &#x3D; formsInfo.firstName;
+    this.lastName &#x3D; formsInfo.lastName;
+    this.address &#x3D; formsInfo.address;
+    this.mobile &#x3D; formsInfo.mobile;
+    this.payment &#x3D; formsInfo.payment;
+    this.cardHolder &#x3D; formsInfo.cardHolder;
+    this.iban &#x3D; formsInfo.iban;
+    this.products &#x3D; titles.products;
+    this.total &#x3D; titles.total;
+  };
+
+  getShipmentDetails &#x3D; (): void &#x3D;&gt; {
+    this.shipmentDetails &#x3D; this.navigationService.getShipmentDetails();
+  };
+
+  getPaymentDetails &#x3D; (): void &#x3D;&gt; {
+    this.paymentDetails &#x3D; this.navigationService.getPaymentDetails();
+  };
+
+  getProductsInformation &#x3D; (): void &#x3D;&gt; {
+    this.products$ &#x3D; this.store.select(store &#x3D;&gt; store.products);
+    this.products$.subscribe(res &#x3D;&gt; {
+      this.addedProducts &#x3D; JSON.parse(
+        JSON.stringify([...res[&quot;addedProducts&quot;]])
+      );
+      this.originalProducts &#x3D; JSON.parse(JSON.stringify([...res[&quot;products&quot;]]));
+    });
+  };
+
+  calculatePriceOnChange &#x3D; (event: any, product: any): void &#x3D;&gt; {
+    const typedQuantity &#x3D; event.target.value;
+    this.areProductsEdited &#x3D; true;
+    if (typedQuantity) {
+      const originalProduct &#x3D; this.originalProducts.find(
+        (res: Product) &#x3D;&gt; res.id &#x3D;&#x3D;&#x3D; product.id
+      );
+      let selectedProduct &#x3D; this.addedProducts.find(
+        (res: Product) &#x3D;&gt; res.id &#x3D;&#x3D;&#x3D; product.id
+      );
+      selectedProduct.quantity &#x3D; parseInt(product.quantity);
+      selectedProduct.price &#x3D;
+        Math.ceil(selectedProduct.quantity * originalProduct.price * 100) / 100;
+      this.editedProduct &#x3D; selectedProduct;
+    }
+    if (!typedQuantity) product.price &#x3D; 0;
+    this.calulateTotalPrice();
+  };
+
+  calulateTotalPrice &#x3D; (): void &#x3D;&gt; {
+    this.totalPrice &#x3D; this.addedProducts
+      .map((product: Product) &#x3D;&gt; product.price)
+      .reduce((a, b) &#x3D;&gt; {
+        return Math.ceil(a + b);
+      }, 0);
+  };
+
+  onRouteChange &#x3D; (event: boolean) &#x3D;&gt; {
+    if (event) {
+      this.router.navigate([routes.success]);
+      this.navigationService.stepFourActive &#x3D; true;
+      this.navigationService.stepFiveActive &#x3D; true;
+      if (this.areProductsEdited)
+        this.store.dispatch(new UpdateAddedProducts(this.editedProduct));
+      this.productsService.setPreviousAddedProducts(
+        JSON.parse(JSON.stringify([...this.addedProducts]))
+      );
+    }
+  };
+
+  configureButton &#x3D; (): void &#x3D;&gt; {
+    this.navigateButtonText &#x3D; titles.submit;
+    this.enableBtnFullWidth &#x3D; true;
+  };
+
+  deleteProduct &#x3D; (id: string): void &#x3D;&gt; {
+    this.store.dispatch(new DeleteProductAction(id));
+    if (this.addedProducts.length &#x3D;&#x3D;&#x3D; 0) {
+      this.totalPrice &#x3D; 0;
+      this.productsService.setPreviousAddedProducts([]);
+    }
+    this.calulateTotalPrice();
+  };
+
+  calculateProductPrice &#x3D; (): void &#x3D;&gt; {
+    this.addedProducts &#x3D; this.addedProducts.map((product: Product) &#x3D;&gt;
+      Object.assign({}, product, {
+        price: Math.ceil(product.quantity * product.price * 100) / 100
+      })
+    );
+    this.calulateTotalPrice();
+  };
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;overview-container&quot;&gt;
+  &lt;span id&#x3D;&quot;overview-header&quot;&gt; {{ overview }} &lt;/span&gt;
+  &lt;div class&#x3D;&quot;overview-information-container&quot;&gt;
+    &lt;div class&#x3D;&quot;shipping-details&quot;&gt;
+      &lt;span id&#x3D;&quot;shipping-header&quot;&gt; {{ shipping }} &lt;/span&gt;
+      &lt;div class&#x3D;&quot;firstname-info&quot;&gt;
+        &lt;span id&#x3D;&quot;firstname-text&quot;&gt; {{ firstName }}: &lt;/span&gt;
+        &lt;span id&#x3D;&quot;username-firstname&quot;&gt;
+          {{ shipmentDetails?.firstName }}
+        &lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class&#x3D;&quot;lastname-info&quot;&gt;
+        &lt;span id&#x3D;&quot;lastname-text&quot;&gt; {{ lastName }}: &lt;/span&gt;
+        &lt;span id&#x3D;&quot;username-lastname&quot;&gt;
+          {{ shipmentDetails?.lastName }}
+        &lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class&#x3D;&quot;address-info&quot;&gt;
+        &lt;span id&#x3D;&quot;address-text&quot;&gt; {{ address }}: &lt;/span&gt;
+        &lt;span id&#x3D;&quot;user-address&quot;&gt;
+          {{ shipmentDetails?.address }}
+        &lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class&#x3D;&quot;mobile-info&quot;&gt;
+        &lt;span id&#x3D;&quot;mobile-text&quot;&gt; {{ mobile }}: &lt;/span&gt;
+        &lt;span id&#x3D;&quot;username-mobile&quot;&gt;
+          {{ shipmentDetails?.mobile }}
+        &lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;payment-details-container&quot;&gt;
+      &lt;span id&#x3D;&quot;payment-header&quot;&gt; {{ payment }} &lt;/span&gt;
+      &lt;div class&#x3D;&quot;cardholder-info&quot;&gt;
+        &lt;span id&#x3D;&quot;cardholder-text&quot;&gt; {{ cardHolder }}: &lt;/span&gt;
+        &lt;span id&#x3D;&quot;cardholer-name&quot;&gt; {{ paymentDetails?.cardHolder }} &lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class&#x3D;&quot;iban-info&quot;&gt;
+        &lt;span id&#x3D;&quot;iban-text&quot;&gt; {{ iban }}: &lt;/span&gt;
+        &lt;span id&#x3D;&quot;iban-number&quot;&gt;
+          {{ paymentDetails?.iban }}
+        &lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;product-details-container&quot;&gt;
+      &lt;span id&#x3D;&quot;products-header&quot;&gt; {{ products }} &lt;/span&gt;
+      &lt;div class&#x3D;&quot;added-orders-container&quot;&gt;
+        &lt;div class&#x3D;&quot;added-orders-content&quot; *ngFor&#x3D;&quot;let product of addedProducts&quot;&gt;
+          &lt;div class&#x3D;&quot;product-name&quot;&gt;{{ product?.productName }}&lt;/div&gt;
+          &lt;div class&#x3D;&quot;product-quantity&quot;&gt;
+            &lt;input
+              type&#x3D;&quot;text&quot;
+              class&#x3D;&quot;form-control override-form-control&quot;
+              [(ngModel)]&#x3D;&quot;product.quantity&quot;
+              (change)&#x3D;&quot;calculatePriceOnChange($event, product)&quot;
+            /&gt;
+          &lt;/div&gt;
+          &lt;div class&#x3D;&quot;delete-product&quot;&gt;
+            &lt;i (click)&#x3D;&quot;deleteProduct(product.id)&quot; class&#x3D;&quot;far fa-trash-alt&quot;&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;div class&#x3D;&quot;product-price&quot;&gt;{{ product?.price }} €&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;hr *ngIf&#x3D;&quot;addedProducts?.length&quot; /&gt;
+      &lt;div *ngIf&#x3D;&quot;addedProducts?.length&quot; class&#x3D;&quot;total-products-price&quot;&gt;
+        &lt;span id&#x3D;&quot;product-price-text&quot;&gt;{{ total }}&lt;/span&gt;
+        &lt;span id&#x3D;&quot;product-price-number&quot;&gt;{{ totalPrice }} €&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div
+      *ngIf&#x3D;&quot;addedProducts?.length &amp;&amp; totalPrice &gt; 0&quot;
+      class&#x3D;&quot;button-container&quot;
+    &gt;
+      &lt;navigate-button
+        (onRouteChange)&#x3D;&quot;onRouteChange($event)&quot;
+        [buttonText]&#x3D;&quot;navigateButtonText&quot;
+        [enableFullWidth]&#x3D;&quot;enableBtnFullWidth&quot;
+      &gt;&lt;/navigate-button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./checkout-overview.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">#overview-header {
+  color: rgb(53, 53, 53);
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.overview-container {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.overview-information-container {
+  box-shadow: 0 0.063rem 0.313rem 0 rgba(0, 0, 0, 0.3);
+  width: 45rem;
+  top: 4.5rem;
+  background-color: #e5e5e5;
+  right: 0rem;
+  height: 100%;
+  margin-top: 2rem;
+  padding: 1.25rem;
+}
+
+#shipping-header,
+#payment-header,
+#products-header {
+  color: rgb(53, 53, 53);
+  font-size: 1.875rem;
+  font-weight: 500;
+}
+.payment-details-container,
+.product-details-container {
+  margin-top: 2rem;
+}
+.override-form-control {
+  height: 1.8125rem;
+  width: 3.7rem;
+}
+.added-orders-container {
+  margin-top: 2rem;
+  position: relative;
+}
+.added-orders-content {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0.6875rem;
+}
+.fa-trash-alt {
+  font-weight: 900;
+  cursor: pointer;
+}
+.total-products-price {
+  display: flex;
+  justify-content: flex-end;
+}
+#product-price-text {
+  margin-right: 0.5rem;
+}
+.delete-product {
+  margin-right: 0.375rem;
+}
+.product-name {
+  margin-right: 13.9375rem;
+}
+.product-quantity {
+  position: absolute;
+  left: 15.75rem;
+}
+.delete-product {
+  right: 17.3125rem;
+  position: absolute;
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="overview-container">  <span id="overview-header"> {{ overview }} </span>  <div class="overview-information-container">    <div class="shipping-details">      <span id="shipping-header"> {{ shipping }} </span>      <div class="firstname-info">        <span id="firstname-text"> {{ firstName }}: </span>        <span id="username-firstname">          {{ shipmentDetails?.firstName }}        </span>      </div>      <div class="lastname-info">        <span id="lastname-text"> {{ lastName }}: </span>        <span id="username-lastname">          {{ shipmentDetails?.lastName }}        </span>      </div>      <div class="address-info">        <span id="address-text"> {{ address }}: </span>        <span id="user-address">          {{ shipmentDetails?.address }}        </span>      </div>      <div class="mobile-info">        <span id="mobile-text"> {{ mobile }}: </span>        <span id="username-mobile">          {{ shipmentDetails?.mobile }}        </span>      </div>    </div>    <div class="payment-details-container">      <span id="payment-header"> {{ payment }} </span>      <div class="cardholder-info">        <span id="cardholder-text"> {{ cardHolder }}: </span>        <span id="cardholer-name"> {{ paymentDetails?.cardHolder }} </span>      </div>      <div class="iban-info">        <span id="iban-text"> {{ iban }}: </span>        <span id="iban-number">          {{ paymentDetails?.iban }}        </span>      </div>    </div>    <div class="product-details-container">      <span id="products-header"> {{ products }} </span>      <div class="added-orders-container">        <div class="added-orders-content" *ngFor="let product of addedProducts">          <div class="product-name">{{ product?.productName }}</div>          <div class="product-quantity">            <input              type="text"              class="form-control override-form-control"              [(ngModel)]="product.quantity"              (change)="calculatePriceOnChange($event, product)"            />          </div>          <div class="delete-product">            <i (click)="deleteProduct(product.id)" class="far fa-trash-alt"></i>          </div>          <div class="product-price">{{ product?.price }} €</div>        </div>      </div>      <hr *ngIf="addedProducts?.length" />      <div *ngIf="addedProducts?.length" class="total-products-price">        <span id="product-price-text">{{ total }}</span>        <span id="product-price-number">{{ totalPrice }} €</span>      </div>    </div>    <div      *ngIf="addedProducts?.length && totalPrice > 0"      class="button-container"    >      <navigate-button        (onRouteChange)="onRouteChange($event)"        [buttonText]="navigateButtonText"        [enableFullWidth]="enableBtnFullWidth"      ></navigate-button>    </div>  </div></div></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CheckoutOverviewComponent', 'selector': 'app-checkout-overview'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'NavigateButtonComponent', 'selector': 'navigate-button'},{'name': 'OrderSuccessComponent', 'selector': 'app-order-success'},{'name': 'PaymentDetailsComponent', 'selector': 'app-payment-details'},{'name': 'ProductsDashboardComponent', 'selector': 'app-products-dashboard'},{'name': 'ProductsTableComponent', 'selector': 'products-table'},{'name': 'ProgressBarComponent', 'selector': 'app-progress-bar'},{'name': 'SearchBarComponent', 'selector': 'search-bar'},{'name': 'ShippingDetailsComponent', 'selector': 'app-shipping-details'},{'name': 'ShoppingModalComponent', 'selector': 'shopping-modal'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'CheckoutOverviewComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'CheckoutOverviewComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

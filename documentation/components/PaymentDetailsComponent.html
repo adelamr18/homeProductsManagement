@@ -1,0 +1,1451 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>manage-user-products documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">manage-user-products documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>PaymentDetailsComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/views/payment-details/payment-details.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">providers</td>
+                <td class="col-md-9">
+                            <code>IbanPipe</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-payment-details</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./payment-details.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./payment-details.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#cardHolder">cardHolder</a>
+                            </li>
+                            <li>
+                                <a href="#cardHolderLetters">cardHolderLetters</a>
+                            </li>
+                            <li>
+                                <a href="#cardHolderRequired">cardHolderRequired</a>
+                            </li>
+                            <li>
+                                <a href="#configureButton">configureButton</a>
+                            </li>
+                            <li>
+                                <a href="#configurePaymentForm">configurePaymentForm</a>
+                            </li>
+                            <li>
+                                <a href="#createPaymentForm">createPaymentForm</a>
+                            </li>
+                            <li>
+                                <a href="#enableBtnFullWidth">enableBtnFullWidth</a>
+                            </li>
+                            <li>
+                                <a href="#getPreviousPaymentDetails">getPreviousPaymentDetails</a>
+                            </li>
+                            <li>
+                                <a href="#iban">iban</a>
+                            </li>
+                            <li>
+                                <a href="#ibanInvalid">ibanInvalid</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#ibanReactive">ibanReactive</a>
+                            </li>
+                            <li>
+                                <a href="#ibanRequired">ibanRequired</a>
+                            </li>
+                            <li>
+                                <a href="#ibanValue">ibanValue</a>
+                            </li>
+                            <li>
+                                <a href="#navigateButtonText">navigateButtonText</a>
+                            </li>
+                            <li>
+                                <a href="#navigateToOverview">navigateToOverview</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#navigationService">navigationService</a>
+                            </li>
+                            <li>
+                                <a href="#onIbanChange">onIbanChange</a>
+                            </li>
+                            <li>
+                                <a href="#onRouteChange">onRouteChange</a>
+                            </li>
+                            <li>
+                                <a href="#onSubmit">onSubmit</a>
+                            </li>
+                            <li>
+                                <a href="#payment">payment</a>
+                            </li>
+                            <li>
+                                <a href="#paymentForm">paymentForm</a>
+                            </li>
+                            <li>
+                                <a href="#previousPaymentDetails">previousPaymentDetails</a>
+                            </li>
+                            <li>
+                                <a href="#savePaymentDetails">savePaymentDetails</a>
+                            </li>
+                            <li>
+                                <a href="#submitted">submitted</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+                    <tr>
+                        <td class="col-md-4">
+                            <h6><b>Accessors</b></h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <ul class="index-list">
+                                <li>
+                                    <a href="#f">f</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(formBuilder: <a href="https://angular.io/api/forms/FormBuilder" target="_blank">FormBuilder</a>, router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, navigationService: <a href="../injectables/NavigationService.html">NavigationService</a>, ibanPipe: IbanPipe)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="40" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:40</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>formBuilder</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/forms/FormBuilder" target="_blank" >FormBuilder</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>navigationService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/NavigationService.html" target="_self" >NavigationService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>ibanPipe</td>
+                                                  
+                                                        <td>
+                                                                    <code>IbanPipe</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="49"
+                            class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:49</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="cardHolder"></a>
+                        <span class="name">
+                            <b>
+                            cardHolder</b>
+                            <a href="#cardHolder"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="35" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:35</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="cardHolderLetters"></a>
+                        <span class="name">
+                            <b>
+                            cardHolderLetters</b>
+                            <a href="#cardHolderLetters"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="38" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:38</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="cardHolderRequired"></a>
+                        <span class="name">
+                            <b>
+                            cardHolderRequired</b>
+                            <a href="#cardHolderRequired"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="37" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:37</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="configureButton"></a>
+                        <span class="name">
+                            <b>
+                            configureButton</b>
+                            <a href="#configureButton"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="76" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:76</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="configurePaymentForm"></a>
+                        <span class="name">
+                            <b>
+                            configurePaymentForm</b>
+                            <a href="#configurePaymentForm"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="56" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:56</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="createPaymentForm"></a>
+                        <span class="name">
+                            <b>
+                            createPaymentForm</b>
+                            <a href="#createPaymentForm"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="81" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:81</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="enableBtnFullWidth"></a>
+                        <span class="name">
+                            <b>
+                            enableBtnFullWidth</b>
+                            <a href="#enableBtnFullWidth"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:28</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getPreviousPaymentDetails"></a>
+                        <span class="name">
+                            <b>
+                            getPreviousPaymentDetails</b>
+                            <a href="#getPreviousPaymentDetails"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="121" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:121</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="iban"></a>
+                        <span class="name">
+                            <b>
+                            iban</b>
+                            <a href="#iban"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="36" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:36</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="ibanInvalid"></a>
+                        <span class="name">
+                            <b>
+                            ibanInvalid</b>
+                            <a href="#ibanInvalid"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="40" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:40</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="ibanReactive"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            ibanReactive</b>
+                            <a href="#ibanReactive"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://angular.io/api/forms/FormControl" target="_blank" >FormControl</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:30</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="ibanRequired"></a>
+                        <span class="name">
+                            <b>
+                            ibanRequired</b>
+                            <a href="#ibanRequired"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="39" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:39</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="ibanValue"></a>
+                        <span class="name">
+                            <b>
+                            ibanValue</b>
+                            <a href="#ibanValue"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:31</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="navigateButtonText"></a>
+                        <span class="name">
+                            <b>
+                            navigateButtonText</b>
+                            <a href="#navigateButtonText"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:27</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="navigateToOverview"></a>
+                        <span class="name">
+                            <b>
+                            navigateToOverview</b>
+                            <a href="#navigateToOverview"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="116" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:116</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="navigationService"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            navigationService</b>
+                            <a href="#navigationService"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../injectables/NavigationService.html" target="_self" >NavigationService</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="45" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:45</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="onIbanChange"></a>
+                        <span class="name">
+                            <b>
+                            onIbanChange</b>
+                            <a href="#onIbanChange"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="103" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:103</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="onRouteChange"></a>
+                        <span class="name">
+                            <b>
+                            onRouteChange</b>
+                            <a href="#onRouteChange"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="95" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:95</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="onSubmit"></a>
+                        <span class="name">
+                            <b>
+                            onSubmit</b>
+                            <a href="#onSubmit"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="72" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:72</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="payment"></a>
+                        <span class="name">
+                            <b>
+                            payment</b>
+                            <a href="#payment"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:34</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="paymentForm"></a>
+                        <span class="name">
+                            <b>
+                            paymentForm</b>
+                            <a href="#paymentForm"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://angular.io/api/forms/FormGroup" target="_blank" >FormGroup</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="29" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:29</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="previousPaymentDetails"></a>
+                        <span class="name">
+                            <b>
+                            previousPaymentDetails</b>
+                            <a href="#previousPaymentDetails"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/PaymentDetails.html" target="_self" >PaymentDetails</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="33" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:33</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="savePaymentDetails"></a>
+                        <span class="name">
+                            <b>
+                            savePaymentDetails</b>
+                            <a href="#savePaymentDetails"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="108" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:108</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="submitted"></a>
+                        <span class="name">
+                            <b>
+                            submitted</b>
+                            <a href="#submitted"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:32</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    <h3 id="accessors">
+        Accessors
+    </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="f"></a>
+                        <span class="name"><b>f</b><a href="#f"><span class="icon ion-ios-link"></span></a></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <span class="accessor"><b>get</b><code>f()</code></span>
+                    </td>
+                </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="68" class="link-to-prism">src/app/views/payment-details/payment-details.component.ts:68</a></div>
+                                </td>
+                            </tr>
+
+            </tbody>
+        </table>
+</section>
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &quot;@angular/core&quot;;
+import {
+  FormBuilder,
+  FormGroup,
+  Validators,
+  FormControl
+} from &quot;@angular/forms&quot;;
+import { Router } from &quot;@angular/router&quot;;
+import { NavigationService } from &quot;src/app/shared/services/navigation/navigation.service&quot;;
+import { ValidatorService, ɵb } from &quot;angular-iban&quot;;
+import { IbanPipe } from &quot;../../shared/pipes/iban.pipe&quot;;
+import { PaymentDetails } from &quot;src/app/shared/models/payment-details&quot;;
+import {
+  errors,
+  formsInfo,
+  validators,
+  titles,
+  routes
+} from &quot;../../shared/constants/defines&quot;;
+@Component({
+  selector: &quot;app-payment-details&quot;,
+  templateUrl: &quot;./payment-details.component.html&quot;,
+  styleUrls: [&quot;./payment-details.component.css&quot;],
+  providers: [IbanPipe]
+})
+export class PaymentDetailsComponent implements OnInit {
+  navigateButtonText: string &#x3D; &quot;&quot;;
+  enableBtnFullWidth: boolean &#x3D; false;
+  paymentForm: FormGroup;
+  public ibanReactive: FormControl;
+  ibanValue: string &#x3D; &quot;&quot;;
+  submitted &#x3D; false;
+  previousPaymentDetails: PaymentDetails;
+  payment: string &#x3D; &quot;&quot;;
+  cardHolder: string &#x3D; &quot;&quot;;
+  iban: string &#x3D; &quot;&quot;;
+  cardHolderRequired: string &#x3D; &quot;&quot;;
+  cardHolderLetters: string &#x3D; &quot;&quot;;
+  ibanRequired: string &#x3D; &quot;&quot;;
+  ibanInvalid: string &#x3D; &quot;&quot;;
+
+  constructor(
+    private formBuilder: FormBuilder,
+    private router: Router,
+    public navigationService: NavigationService,
+    private ibanPipe: IbanPipe
+  ) {}
+
+  ngOnInit(): void {
+    this.configurePaymentForm();
+    this.configureButton();
+    this.createPaymentForm();
+    this.getPreviousPaymentDetails();
+  }
+
+  configurePaymentForm &#x3D; (): void &#x3D;&gt; {
+    this.payment &#x3D; formsInfo.payment;
+    this.cardHolder &#x3D; formsInfo.cardHolder;
+    this.cardHolderRequired &#x3D; errors.cardHolderRequired;
+    this.cardHolderLetters &#x3D; errors.cardHolderLetters;
+    this.iban &#x3D; formsInfo.iban;
+    this.ibanRequired &#x3D; errors.ibanRequired;
+    this.ibanInvalid &#x3D; errors.ibanInvalid;
+  };
+
+  //this function is used to enable form accessing from the payment-details.component.html file
+  //to display errors users when an error occurs
+  get f() {
+    return this.paymentForm.controls;
+  }
+
+  onSubmit &#x3D; () &#x3D;&gt; {
+    this.submitted &#x3D; true;
+  };
+
+  configureButton &#x3D; (): void &#x3D;&gt; {
+    this.navigateButtonText &#x3D; titles.continue;
+    this.enableBtnFullWidth &#x3D; true;
+  };
+
+  createPaymentForm &#x3D; () &#x3D;&gt; {
+    this.ibanReactive &#x3D; new FormControl(null, [
+      Validators.required,
+      ValidatorService.validateIban
+    ]);
+    this.paymentForm &#x3D; this.formBuilder.group({
+      cardHolder: [
+        &quot;&quot;,
+        [Validators.required, Validators.pattern(validators.capitalAndSmall)]
+      ],
+      iban: this.ibanReactive
+    });
+  };
+
+  onRouteChange &#x3D; (event: any) &#x3D;&gt; {
+    this.submitted &#x3D; true;
+    if (event &amp;&amp; this.paymentForm.valid) {
+      this.savePaymentDetails();
+      this.navigateToOverview();
+    }
+  };
+
+  onIbanChange &#x3D; (event: any): void &#x3D;&gt; {
+    const typedIban &#x3D; event.target.value;
+    this.ibanValue &#x3D; this.ibanPipe.transform(typedIban);
+  };
+
+  savePaymentDetails &#x3D; (): void &#x3D;&gt; {
+    const paymentDetails &#x3D; {
+      cardHolder: this.paymentForm.get(&quot;cardHolder&quot;).value,
+      iban: this.paymentForm.get(&quot;iban&quot;).value
+    };
+    this.navigationService.savePaymentDetails(paymentDetails);
+  };
+
+  navigateToOverview &#x3D; (): void &#x3D;&gt; {
+    this.navigationService.stepThreeActive &#x3D; true;
+    this.router.navigate([routes.overview]);
+  };
+
+  getPreviousPaymentDetails &#x3D; () &#x3D;&gt; {
+    if (this.navigationService.stepThreeActive) {
+      this.previousPaymentDetails &#x3D; this.navigationService.getPaymentDetails();
+      this.paymentForm.get(&quot;iban&quot;).setValue(this.previousPaymentDetails.iban);
+      this.paymentForm
+        .get(&quot;cardHolder&quot;)
+        .setValue(this.previousPaymentDetails.cardHolder);
+    }
+  };
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;payment-details-container&quot;&gt;
+  &lt;span id&#x3D;&quot;payment-header&quot;&gt;
+    {{ payment }}
+  &lt;/span&gt;
+  &lt;div class&#x3D;&quot;payment-form-container&quot;&gt;
+    &lt;form [formGroup]&#x3D;&quot;paymentForm&quot;&gt;
+      &lt;div class&#x3D;&quot;form-group row&quot;&gt;
+        &lt;label class&#x3D;&quot;col-sm-2 col-form-label&quot;&gt;{{ cardHolder }}&lt;/label&gt;
+        &lt;div class&#x3D;&quot;col-sm-10&quot;&gt;
+          &lt;input
+            formControlName&#x3D;&quot;cardHolder&quot;
+            type&#x3D;&quot;text&quot;
+            class&#x3D;&quot;form-control&quot;
+            placeholder&#x3D;&quot;{{ cardHolder }}&quot;
+            [ngClass]&#x3D;&quot;{ &#x27;is-invalid&#x27;: submitted &amp;&amp; f.cardHolder.errors }&quot;
+          /&gt;
+          &lt;div *ngIf&#x3D;&quot;f.cardHolder.errors&quot; class&#x3D;&quot;invalid-feedback&quot;&gt;
+            &lt;div *ngIf&#x3D;&quot;f.cardHolder.errors.required&quot;&gt;
+              {{ cardHolderRequired }}
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div *ngIf&#x3D;&quot;f.cardHolder.errors&quot; class&#x3D;&quot;invalid-feedback&quot;&gt;
+            &lt;div *ngIf&#x3D;&quot;f.cardHolder.hasError(&#x27;pattern&#x27;)&quot;&gt;
+              {{ cardHolderLetters }}
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class&#x3D;&quot;form-group row&quot;&gt;
+        &lt;label class&#x3D;&quot;col-sm-2 col-form-label&quot;&gt;{{ iban }}&lt;/label&gt;
+        &lt;div class&#x3D;&quot;col-sm-10&quot;&gt;
+          &lt;input
+            formControlName&#x3D;&quot;iban&quot;
+            type&#x3D;&quot;text&quot;
+            class&#x3D;&quot;form-control&quot;
+            placeholder&#x3D;&quot;{{ iban }}&quot;
+            name&#x3D;&quot;iban&quot;
+            [ngClass]&#x3D;&quot;{ &#x27;is-invalid&#x27;: submitted &amp;&amp; f.iban.errors }&quot;
+            (change)&#x3D;&quot;onIbanChange($event)&quot;
+          /&gt;
+          &lt;div *ngIf&#x3D;&quot;f.iban.errors&quot; class&#x3D;&quot;invalid-feedback&quot;&gt;
+            &lt;div *ngIf&#x3D;&quot;f.iban.errors.required&quot;&gt;
+              {{ ibanRequired }}
+            &lt;/div&gt;
+            &lt;div *ngIf&#x3D;&quot;f.iban.errors.iban&quot;&gt;
+              {{ ibanInvalid }}
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div (click)&#x3D;&quot;onSubmit()&quot; class&#x3D;&quot;submit-container&quot;&gt;
+        &lt;navigate-button
+          [enableFullWidth]&#x3D;&quot;enableBtnFullWidth&quot;
+          (onRouteChange)&#x3D;&quot;onRouteChange($event)&quot;
+          [buttonText]&#x3D;&quot;navigateButtonText&quot;
+        &gt;&lt;/navigate-button&gt;
+      &lt;/div&gt;
+    &lt;/form&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+DE89 3704 0044 0532 0130 00
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./payment-details.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.payment-details-container {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#payment-header {
+  color: rgb(53, 53, 53);
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 700;
+}
+.submit-container {
+  margin-top: 3rem;
+  margin-left: 7.0625rem;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+label {
+  color: rgb(53, 53, 53);
+  font-weight: 600;
+}
+.payment-form-container {
+  width: 37.5rem;
+  margin-top: 4rem;
+}
+@media (max-width: 35.625rem) {
+  .submit-container {
+    margin-left: 0rem;
+  }
+  .payment-form-container {
+    padding: 4.0625rem;
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="payment-details-container">  <span id="payment-header">    {{ payment }}  </span>  <div class="payment-form-container">    <form [formGroup]="paymentForm">      <div class="form-group row">        <label class="col-sm-2 col-form-label">{{ cardHolder }}</label>        <div class="col-sm-10">          <input            formControlName="cardHolder"            type="text"            class="form-control"            placeholder="{{ cardHolder }}"            [ngClass]="{ \'is-invalid\': submitted && f.cardHolder.errors }"          />          <div *ngIf="f.cardHolder.errors" class="invalid-feedback">            <div *ngIf="f.cardHolder.errors.required">              {{ cardHolderRequired }}            </div>          </div>          <div *ngIf="f.cardHolder.errors" class="invalid-feedback">            <div *ngIf="f.cardHolder.hasError(\'pattern\')">              {{ cardHolderLetters }}            </div>          </div>        </div>      </div>      <div class="form-group row">        <label class="col-sm-2 col-form-label">{{ iban }}</label>        <div class="col-sm-10">          <input            formControlName="iban"            type="text"            class="form-control"            placeholder="{{ iban }}"            name="iban"            [ngClass]="{ \'is-invalid\': submitted && f.iban.errors }"            (change)="onIbanChange($event)"          />          <div *ngIf="f.iban.errors" class="invalid-feedback">            <div *ngIf="f.iban.errors.required">              {{ ibanRequired }}            </div>            <div *ngIf="f.iban.errors.iban">              {{ ibanInvalid }}            </div>          </div>        </div>      </div>      <div (click)="onSubmit()" class="submit-container">        <navigate-button          [enableFullWidth]="enableBtnFullWidth"          (onRouteChange)="onRouteChange($event)"          [buttonText]="navigateButtonText"        ></navigate-button>      </div>    </form>  </div></div>DE89 3704 0044 0532 0130 00</div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CheckoutOverviewComponent', 'selector': 'app-checkout-overview'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'NavigateButtonComponent', 'selector': 'navigate-button'},{'name': 'OrderSuccessComponent', 'selector': 'app-order-success'},{'name': 'PaymentDetailsComponent', 'selector': 'app-payment-details'},{'name': 'ProductsDashboardComponent', 'selector': 'app-products-dashboard'},{'name': 'ProductsTableComponent', 'selector': 'products-table'},{'name': 'ProgressBarComponent', 'selector': 'app-progress-bar'},{'name': 'SearchBarComponent', 'selector': 'search-bar'},{'name': 'ShippingDetailsComponent', 'selector': 'app-shipping-details'},{'name': 'ShoppingModalComponent', 'selector': 'shopping-modal'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'PaymentDetailsComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'PaymentDetailsComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
