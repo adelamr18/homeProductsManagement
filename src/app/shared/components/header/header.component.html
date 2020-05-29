@@ -1,0 +1,9 @@
+<nav class="navbar navbar-light bg-light">
+  <div (click)="navigateToDashboard()" class="header-title">
+    <span class="navbar-brand mb-0 h1">{{ headerTitle }}</span>
+  </div>
+  <div class="shopping-icon-with-products">
+    <span id="products-number">{{ addedProductsCount }}</span>
+    <i (click)="showProductsModal()" class="fas fa-shopping-cart"></i>
+  </div>
+</nav>
