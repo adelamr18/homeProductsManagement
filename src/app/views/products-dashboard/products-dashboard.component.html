@@ -1,0 +1,16 @@
+<div class="search-bar-container-outer">
+  <search-bar (onSearchChange)="onSearchChange($event)"></search-bar>
+</div>
+<div *ngIf="isLoading" class="loader-container">
+  <div class="d-flex justify-content-center">
+    <div class="spinner-border" role="status">
+      <span class="sr-only"></span>
+    </div>
+  </div>
+</div>
+<div *ngIf="allProducts?.length > 0" class="products-table-container-outer">
+  <products-table
+    [searchTerm]="searchTerm"
+    [productsData]="allProducts"
+  ></products-table>
+</div>

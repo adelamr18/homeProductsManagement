@@ -1,0 +1,14 @@
+.search-bar-container-outer {
+  margin-top: 9.375rem;
+}
+.products-table-container-outer {
+  margin-top: 3rem;
+  padding: 2rem;
+}
+.spinner-border {
+  width: 5rem;
+  height: 5rem;
+}
+.loader-container {
+  margin-top: 2rem;
+}
