@@ -8,7 +8,7 @@ import { OrderSuccessComponent } from "./views/order-success/order-success.compo
 
 const routes: Routes = [
   { path: "products", component: ProductsDashboardComponent },
-  { path: "", redirectTo: "/products", pathMatch: "full" }, // redirect to `first-component`
+  { path: "", redirectTo: "/products", pathMatch: "full" },
   { path: "shipping", component: ShippingDetailsComponent },
   { path: "payment", component: PaymentDetailsComponent },
   { path: "overview", component: CheckoutOverviewComponent },
