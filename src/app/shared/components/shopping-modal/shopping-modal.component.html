@@ -1,0 +1,56 @@
+<div
+  class="shopping-cart-content"
+  [ngClass]="{
+    selected: showProductsCart,
+    dismiss: !showProductsCart && isHeaderClickedForFirstTime
+  }"
+>
+  <div class="shopping-cart-heading">
+    <span id="shopping-cart-heading-text">{{ basket }}</span>
+  </div>
+  <div class="shopping-cart-subheading-outer">
+    <div class="shopping-cart-subheading-inner">
+      <div class="shoppping-cart-logo">
+        <i class="fa fa-shopping-cart"></i>
+      </div>
+      <div class="shopping-cart-text-outer">
+        <span id="shopping-text">{{ addProducts }}</span>
+      </div>
+    </div>
+    <hr *ngIf="selectedProducts?.length" />
+    <div class="selected-orders-container">
+      <div
+        class="selected-orders-content"
+        *ngFor="let product of selectedProducts"
+      >
+        <div class="product-name">{{ product.productName }}</div>
+        <div class="product-quantity">
+          <input
+            type="text"
+            class="form-control override-form-control"
+            [(ngModel)]="product.quantity"
+            (change)="calculatePriceOnChange($event, product)"
+          />
+        </div>
+        <div class="delete-product">
+          <i (click)="deleteProduct(product.id)" class="far fa-trash-alt"></i>
+        </div>
+        <div class="product-price">{{ product.price }} €</div>
+      </div>
+    </div>
+    <hr *ngIf="selectedProducts?.length" />
+    <div class="total-products-price">
+      <span id="product-price-text">{{ total }}</span>
+      <span id="product-price-number">{{ totalPrice }} €</span>
+    </div>
+    <div
+      *ngIf="selectedProducts?.length && totalPrice > 0"
+      class="button-container"
+    >
+      <navigate-button
+        (onRouteChange)="onRouteChange($event)"
+        [buttonText]="navigateButtonText"
+      ></navigate-button>
+    </div>
+  </div>
+</div>
