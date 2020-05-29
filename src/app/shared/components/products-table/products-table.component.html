@@ -1,0 +1,36 @@
+<div *ngIf="wasProductAdded" class="alert alert-danger">
+  {{ alreadyAdded }}
+</div>
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">{{ tableId }}</th>
+      <th scope="col">{{ productName }}</th>
+      <th (click)="sortColoumnByPrice()" class="price-coloumn" scope="col">
+        {{ price }}
+      </th>
+      <th scope="col">{{ quantity }}</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody *ngIf="productsData?.length > 0">
+    <tr *ngFor="let product of productsData">
+      <td>{{ product.id }}</td>
+      <td>{{ product.productName }}</td>
+      <td>{{ product.price }} €</td>
+      <td class="qty">
+        <input
+          (change)="onQuantityChange($event, product)"
+          type="text"
+          class="form-control"
+          value="{{ product.quantity }}"
+        />
+      </td>
+      <td>
+        <div class="add-icon">
+          <i (click)="addProduct(product)" class="fa fa-plus"></i>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>

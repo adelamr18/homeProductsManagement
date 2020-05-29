@@ -1,0 +1,12 @@
+.fa-plus {
+  cursor: pointer;
+}
+.qty {
+  width: 0.3rem;
+}
+.price-coloumn {
+  cursor: pointer;
+}
+.alert-danger {
+  width: 50%;
+}
