@@ -1,0 +1,80 @@
+<div class="overview-container">
+  <span id="overview-header"> {{ overview }} </span>
+  <div class="overview-information-container">
+    <div class="shipping-details">
+      <span id="shipping-header"> {{ shipping }} </span>
+      <div class="firstname-info">
+        <span id="firstname-text"> {{ firstName }}: </span>
+        <span id="username-firstname">
+          {{ shipmentDetails?.firstName }}
+        </span>
+      </div>
+      <div class="lastname-info">
+        <span id="lastname-text"> {{ lastName }}: </span>
+        <span id="username-lastname">
+          {{ shipmentDetails?.lastName }}
+        </span>
+      </div>
+      <div class="address-info">
+        <span id="address-text"> {{ address }}: </span>
+        <span id="user-address">
+          {{ shipmentDetails?.address }}
+        </span>
+      </div>
+      <div class="mobile-info">
+        <span id="mobile-text"> {{ mobile }}: </span>
+        <span id="username-mobile">
+          {{ shipmentDetails?.mobile }}
+        </span>
+      </div>
+    </div>
+    <div class="payment-details-container">
+      <span id="payment-header"> {{ payment }} </span>
+      <div class="cardholder-info">
+        <span id="cardholder-text"> {{ cardHolder }}: </span>
+        <span id="cardholer-name"> {{ paymentDetails?.cardHolder }} </span>
+      </div>
+      <div class="iban-info">
+        <span id="iban-text"> {{ iban }}: </span>
+        <span id="iban-number">
+          {{ paymentDetails?.iban }}
+        </span>
+      </div>
+    </div>
+    <div class="product-details-container">
+      <span id="products-header"> {{ products }} </span>
+      <div class="added-orders-container">
+        <div class="added-orders-content" *ngFor="let product of addedProducts">
+          <div class="product-name">{{ product?.productName }}</div>
+          <div class="product-quantity">
+            <input
+              type="text"
+              class="form-control override-form-control"
+              [(ngModel)]="product.quantity"
+              (change)="calculatePriceOnChange($event, product)"
+            />
+          </div>
+          <div class="delete-product">
+            <i (click)="deleteProduct(product.id)" class="far fa-trash-alt"></i>
+          </div>
+          <div class="product-price">{{ product?.price }} €</div>
+        </div>
+      </div>
+      <hr *ngIf="addedProducts?.length" />
+      <div *ngIf="addedProducts?.length" class="total-products-price">
+        <span id="product-price-text">{{ total }}</span>
+        <span id="product-price-number">{{ totalPrice }} €</span>
+      </div>
+    </div>
+    <div
+      *ngIf="addedProducts?.length && totalPrice > 0"
+      class="button-container"
+    >
+      <navigate-button
+        (onRouteChange)="onRouteChange($event)"
+        [buttonText]="navigateButtonText"
+        [enableFullWidth]="enableBtnFullWidth"
+      ></navigate-button>
+    </div>
+  </div>
+</div>
