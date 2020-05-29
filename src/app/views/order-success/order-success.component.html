@@ -1,0 +1,16 @@
+<div class="order-success-container">
+  <span id="success-header">
+    {{ success }}
+  </span>
+  <i class="fa fa-check"></i>
+  <div class="success-message">
+    {{ purchaseSuccess }}
+  </div>
+  <div class="button-container">
+    <navigate-button
+      (onRouteChange)="onRouteChange($event)"
+      [buttonText]="navigateButtonText"
+      [enableFullWidth]="enableBtnFullWidth"
+    ></navigate-button>
+  </div>
+</div>
