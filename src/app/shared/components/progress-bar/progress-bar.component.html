@@ -1,0 +1,34 @@
+<div class="progress-container-outer">
+  <ul class="progress-container-inner">
+    <li
+      (click)="stepOneClick()"
+      [ngClass]="{ 'step-one-active': navigationService.stepOneActive }"
+    >
+      {{ products }}
+    </li>
+    <li
+      (click)="stepTwoClick()"
+      [ngClass]="{ 'step-two-active': navigationService.stepTwoActive }"
+    >
+      {{ shipping }}
+    </li>
+    <li
+      (click)="stepThreeClick()"
+      [ngClass]="{ 'step-three-active': navigationService.stepThreeActive }"
+    >
+      {{ payment }}
+    </li>
+    <li
+      (click)="stepFourClick()"
+      [ngClass]="{ 'step-four-active': navigationService.stepFourActive }"
+    >
+      {{ overview }}
+    </li>
+    <li
+      (click)="stepFiveClick()"
+      [ngClass]="{ 'step-five-active': navigationService.stepFiveActive }"
+    >
+      {{ success }}
+    </li>
+  </ul>
+</div>
