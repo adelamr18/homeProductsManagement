@@ -1,0 +1,7 @@
+.override-form-control {
+  width: 60%;
+}
+.search-container-inner {
+  display: flex;
+  justify-content: center;
+}
